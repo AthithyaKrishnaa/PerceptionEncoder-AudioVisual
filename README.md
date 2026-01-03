@@ -51,9 +51,29 @@ The notebook expects the following media files:[1]
 
 Make sure to upload these files to your Colab environment or modify the file paths accordingly.
 
-## Output
+## Results
 
-The notebook generates a similarity matrix showing cosine similarity scores between all audio-video pair combinations. Higher scores indicate greater perceptual similarity between the audio and video content.[1]
+After computing cosine similarity between all audio–video pairs, the following scores are obtained:
+
+```text
+Similarity scores:
+video1.mp4+audio1.mp3 <-> video1.mp4+audio1.mp3 : 1.0000
+video1.mp4+audio1.mp3 <-> video1.mp4+audio2.mp3 : 0.8721
+video1.mp4+audio1.mp3 <-> video2.mp4+audio1.mp3 : 0.8666
+video1.mp4+audio1.mp3 <-> video2.mp4+audio2.mp3 : 0.7425
+video1.mp4+audio2.mp3 <-> video1.mp4+audio1.mp3 : 0.8721
+video1.mp4+audio2.mp3 <-> video1.mp4+audio2.mp3 : 1.0000
+video1.mp4+audio2.mp3 <-> video2.mp4+audio1.mp3 : 0.7447
+video1.mp4+audio2.mp3 <-> video2.mp4+audio2.mp3 : 0.8583
+video2.mp4+audio1.mp3 <-> video1.mp4+audio1.mp3 : 0.8666
+video2.mp4+audio1.mp3 <-> video1.mp4+audio2.mp3 : 0.7447
+video2.mp4+audio1.mp3 <-> video2.mp4+audio1.mp3 : 1.0000
+video2.mp4+audio1.mp3 <-> video2.mp4+audio2.mp3 : 0.8824
+video2.mp4+audio2.mp3 <-> video1.mp4+audio1.mp3 : 0.7425
+video2.mp4+audio2.mp3 <-> video1.mp4+audio2.mp3 : 0.8583
+video2.mp4+audio2.mp3 <-> video2.mp4+audio1.mp3 : 0.8824
+video2.mp4+audio2.mp3 <-> video2.mp4+audio2.mp3 : 1.0000
+```
 
 ## Model Information
 
