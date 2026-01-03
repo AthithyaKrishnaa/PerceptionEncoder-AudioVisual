@@ -54,3 +54,21 @@ Make sure to upload these files to your Colab environment or modify the file pat
 ## Output
 
 The notebook generates a similarity matrix showing cosine similarity scores between all audio-video pair combinations. Higher scores indicate greater perceptual similarity between the audio and video content.[1]
+
+## Model Information
+
+- **Model**: `facebook/pe-av-small`
+- **Purpose**: Audio-video joint embedding
+- **Framework**: PyTorch with Hugging Face Transformers
+- **Hardware**: Optimized for GPU but works on CPU
+
+## License
+
+This demo uses the PE-AV model from Facebook/Meta. Please refer to the model card on Hugging Face for licensing information.
+
+## Acknowledgments
+
+- Model developed by Meta/Facebook AI Research
+- Hosted on Hugging Face Model Hub
+
+[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/118264810/16c84d76-42b2-4680-b897-fe9dbb1e82d5/pe_av.ipynb)
