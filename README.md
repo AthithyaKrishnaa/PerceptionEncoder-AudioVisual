@@ -70,5 +70,3 @@ This demo uses the PE-AV model from Facebook/Meta. Please refer to the model car
 
 - Model developed by Meta/Facebook AI Research
 - Hosted on Hugging Face Model Hub
-
-[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/118264810/16c84d76-42b2-4680-b897-fe9dbb1e82d5/pe_av.ipynb)
